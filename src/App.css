@@ -1,0 +1,157 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  position: relative;
+  margin:0;
+  
+}
+
+.App {
+  margin: 50px auto;
+  position: relative;
+  width: 1000px;
+  height: 80vh;
+  display: block;
+  overflow: hidden;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.navbar{
+  padding: 12px 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #065a82 ;
+  word-spacing: 11px;
+  color: #f4d35e;
+  
+}
+
+.sidebar-menu{
+  position: fixed;
+  left: 181px;
+  width: 220px;
+  height:auto;
+  padding: 15px 12px 60px;
+  background-color: #f79256;
+  color: black;
+  overflow: hidden;
+  border-bottom-left-radius: 4px;
+}
+
+.sidebar-logo{
+  display: block;
+  text-align: center;
+
+}
+.logo{
+  display: inline-block;
+  text-align: center;
+  margin: 10px auto;
+border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.sidebar-menu .sidebar-text-wrapper li{
+  list-style-type: none;
+  text-align: center;
+  padding:10px;
+  font-size: 20px;
+  font-weight:bold;
+  transition: 0.5s ease;
+  border-bottom: 1.5px solid #fff;
+  
+}
+.sidebar-menu .sidebar-text-wrapper li:hover{
+  background-color: #f1f1f1;
+  border-radius: 3px;
+}
+.sidebar-menu .sidebar-text-wrapper li:hover .link-text{
+  color: #f79256;
+}
+
+
+.link-text{
+  position:relative;
+  text-decoration: none;
+  color: black;
+  display: block;
+
+}
+
+.btn{
+  width: 100%;
+  padding: 12px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right-page{
+  position: absolute;
+  left: 218px;
+  width: calc(100% - 218px);
+  height: 100%;
+
+}
+
+.heading{
+  display: block;
+ padding: 7px;
+ background-color:#ff7f51;
+ text-align: center;
+ color: #fff;
+ font-size: 18px;
+ gap: 3px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ letter-spacing: 1px;
+
+}
+.textarea{
+  display:block;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #f0f3bd;
+  resize: none;
+  width: 100%;
+  height: 100%;
+  color: black;
+  outline: none;
+  border: none;
+}
+
+.code-mirror-wrapper{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+.copybtn{
+  display: block;
+  padding: 4px 6px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  cursor: pointer;
+  background-color: grey;
+  color: #f1f1f1;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  border-radius: 2px;
+  border: 1px solid #fff;
+}
